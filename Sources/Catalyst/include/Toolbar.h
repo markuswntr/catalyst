@@ -1,3 +1,7 @@
+#import <TargetConditionals.h>
+
+#if TARGET_OS_MACCATALYST
+
 #import <AppKit/AppKit.h>
 #import <Foundation/Foundation.h>
 
@@ -22,3 +26,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+#endif
