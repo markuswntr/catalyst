@@ -1,5 +1,3 @@
-#if TARGET_OS_MACCATALYST
-
 #import "Toolbar.h"
 #import <UIKit/UIKit.h>
 #import <UIKit/NSToolbar+UIKitAdditions.h>
@@ -102,5 +100,3 @@
 @dynamic sizeMode;
 
 @end
-
-#endif
